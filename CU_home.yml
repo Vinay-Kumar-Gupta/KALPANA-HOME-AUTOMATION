@@ -1,0 +1,52 @@
+context:
+  expressions:
+    lights:
+      - $number:applicance $light:appliance $status:status
+      - (@init ) $status:status (the,$number:number) (the) $light:appliance
+  slots:
+    light:
+      - fans
+      - lights
+      - fan
+      - light
+      - cooler
+    status:
+      - kill
+      - terminate
+      - hold
+      - off
+      - on
+    number:
+      - main
+      - every
+      - all
+      - both
+      - bed
+      - table
+      - secondary
+      - primary
+      - back
+      - front
+      - second
+      - first
+  macros:
+    init:
+      - please turn
+      - can you please turn
+      - turn the
+      - babe
+      - sister
+      - brother
+      - can you
+      - hello
+      - hi
+      - hey
+      - boss
+      - bro
+      - baby
+      - dear
+      - can you please
+      - can you turn
+      - please
+      - switch
+      - turn
